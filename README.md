@@ -1,2 +1,2 @@
-# ulkarhs.github.io
-Hey! This is my Personal Webpage.
+WebCV
+Hey! This is web version of my CV.
