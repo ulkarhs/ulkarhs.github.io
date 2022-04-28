@@ -179,13 +179,6 @@ body{
     transform: translateX(-50%);
     left: 0;
 }
-<<<<<<< HEAD
-.footer-image {
-    height: 200px;
-    background-position: center;
-    border: 2px solid lemonchiffon;
-    background-color: lemonchiffon;
-} 
 
 @media screen and (max-width:823px){
     .right-title::after{
