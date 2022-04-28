@@ -109,15 +109,15 @@ body{
     color: #ccc;
     padding: .4rem 0;
 }
-.centresdinterets-section li{
+.references-section li{
     color: #ccc;
     padding: 3rem;
     border-bottom-left-radius: 0%;
 }
-.centresdinterets-section li i{
+.references-section li i{
     padding-right: .5rem;
     font-size: 1.2rem;
-    color: #12782d;
+    color: #102f18;
 }
 .right-main-content{
     padding: 2rem 3rem;
