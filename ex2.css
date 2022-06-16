@@ -7,15 +7,18 @@
     font-family: 'Times New Roman';
 }
 
-.header-image {
+.page-header {
     height: 200px;
     background-position: center;
-    border: 2px solid lightpink ;
+    width: 400;
     background-color: lightpink;
+    padding-top: 5em;
+    text-transform: uppercase;
 } 
 
 body{
-    background-color: rgba(198, 96, 104, 0.261);
+    background-color: rgba(107, 16, 164, 0.213);
+    width: 80%;
 }
 }
 
@@ -27,22 +30,21 @@ body{
     grid-template-columns: repeat(7, 1fr);
 }
 .left-section{
-    grid-column: span 2;
-    height: 100%;
-    background-color: rgba(179, 184, 181, 0.53);
+    grid-column: span 3;
+    height: 200%;
+    background-color: rgba(52, 189, 88, 0.414);
+    text-align: justify;
 }
 .right-section{
-    grid-column: span 5;
-    background-color: #f7f7f7;
+    grid-column: span 5%;
+    background-color: #3ca35d;
     height: 100%;
 }
 .left-content{
-    padding: 4rem 4rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid column: span 3 ; 
     color: brown;
-    letter-spacing: 3px;
-    text-decoration: underline solid #002333;
-}
-.profile{
-    width: 100%;
-    border-bottom: 1px solid #002333;
+    text-decoration: underline solid #a61f37;
+    font-size: larger ;
 }
