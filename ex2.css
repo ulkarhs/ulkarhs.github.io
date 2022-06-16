@@ -12,8 +12,12 @@
     background-position: center;
     width: 400;
     background-color: lightpink;
-    padding-top: 5em;
+    padding-top: 4em;
+    padding-bottom: 1em;
     text-transform: uppercase;
+    font-style: italic;
+    font-size: 1.2em;
+
 } 
 
 body{
@@ -46,5 +50,5 @@ body{
     grid column: span 3 ; 
     color: brown;
     text-decoration: underline solid #a61f37;
-    font-size: larger ;
+    font-size: 1.5em ;
 }
