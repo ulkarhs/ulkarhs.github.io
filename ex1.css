@@ -1,3 +1,5 @@
+CORPUS
+
 h1 {
     background-color: rgb(240, 240, 240);   
     text-align: center;
@@ -12,7 +14,7 @@ section {
     font-size: 17px;
 }
 
-
+LEFT
 
 .div_left {
     margin-top: 1rem;
@@ -51,6 +53,62 @@ section {
 }
 
 
+MIDDLE
+
+
+
+.div_middle {
+    padding: 1rem;
+    background-color: rgb(190, 190, 190);
+    border: 2px dashed black;
+    height: fit-content;
+}
+
+.div_middle_1 {
+    border-top: 1px solid;
+    background-color: rgb(212, 212, 212);
+}
+
+.h1_middle_1 {
+    width: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-bottom: 1px solid ;
+}
+
+.section_middle_1 {
+    padding: .5rem;
+}
+
+.div_middle_2 {
+    background-color: rgb(212, 212, 212);
+    border-bottom: 1px solid;
+}
+
+.h1_middle_2 {
+    background-color: rgb(212, 212, 212);
+    width: 25%;
+    text-align: right;
+    font-style: italic;
+    float: right;
+    padding-right: 1rem;
+}
+
+.section_middle_2 {
+    clear: right;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 3rem;
+    padding: .5rem;
+    width: 66%;
+    text-align: justify;
+    border-left: solid;
+    border-right: solid;
+    line-height: 35px;
+}
+
+
+RIGHT
 
 .div_right {
     margin-top: 1rem;
@@ -74,7 +132,10 @@ section {
 }
 
 
-.div_bas {
+
+FOOTER
+
+.conteneur_3 {
     width: 80vw;
     margin: 0 auto;
     margin-top: 4rem;
@@ -84,16 +145,14 @@ section {
     border-left: solid 1px black;
 }
 
-.titre_bas {
+.titre_footer {
     text-align: center;
     font-style: italic;
     background-color: rgb(240, 240, 240);
 }
 
-.p_bas {
+.section_footer {
     margin: 0 auto;
     text-align: center;
     width: 50%;
 }
-
-
